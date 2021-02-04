@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: light-grey;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+}
+
+.row {
+  display: -ms-flexbox;
+
+  display: flex;
+  -ms-flex-wrap: wrap;
+
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+/* Create four equal columns that sits next to each other */
+.col {
+  margin-top: 5%;
+  flex: 25%;
+  max-width: 25%;
+
+  border: 1px solid rgba(128, 128, 128, 0.267);
+}
+
+
+
+.col img {
+  margin-top: 8px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+img {
+  padding: 10%;
+}
+
+.textcontainer p {
+  font-size: 20px;
+  word-wrap: break-word;
+
+
+}
+
+.textcontainer {
+  text-align: center;
+  padding: 1rem;
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  .br {
+    display: none;
+  }
+
+  .col {
+    flex: 50%;
+    max-width: 50%;
+  }
+
+  img {
+    padding: 20%;
+  }
+
+}
+
+
+@media screen and (max-width: 700px) {
+  .col {
+    flex: 100%;
+    max-width: 100%;
+    width: 50%;
+    height: 50%;
+
+  }
+
+  .textcontainer p {
+    font-size: 1.1rem;
+
+
+
+  }
+
+
+  img {
+    padding: 20%;
+  }
+
+  .textcontainer {
+    text-align: center;
+    padding: .5rem;
+
+  }
+
+
+  header p {
+    font-size: 1rem;
+  }
+
+
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+
+  }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* .container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+} */
+
+
+/* 
+.textcontainer p small {
+
+
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+} *

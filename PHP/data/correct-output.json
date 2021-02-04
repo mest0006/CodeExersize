@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Wren",
+    "latin": "Troglodytes troglodytes",
+    "lifespan": 7
+  },
+  {
+    "name": "Bullfinch",
+    "latin": "Pyrrhula pyrrhula",
+    "lifespan": 9
+  },
+  {
+    "name": "Sand martin",
+    "latin": "Riparia riparia",
+    "lifespan": 8
+  },
+  {
+    "name": "Great tit",
+    "latin": "Parus major",
+    "lifespan": 14
+  },
+  {
+    "name": "Barn owl",
+    "latin": "Tyto alba",
+    "lifespan": 15
+  },
+  {
+    "name": "Rook",
+    "latin": "Corvus frugilegus",
+    "lifespan": 23
+  },
+  {
+    "name": "Goshawk",
+    "latin": "Accipiter gentilis",
+    "lifespan": 19
+  },
+  {
+    "name": "Black Grouse",
+    "latin": "Tetrao tetrix",
+    "lifespan": 4
+  },
+  {
+    "name": "Common tern",
+    "latin": "Sterna hirundo",
+    "lifespan": 33
+  },
+  {
+    "name": "Buzzard",
+    "latin": "Buteo buteo",
+    "lifespan": 26
+  },
+  {
+    "name": "Purple sandpiper",
+    "latin": "Calidris maritima",
+    "lifespan": 14
+  },
+  {
+    "name": "Manx shearwater",
+    "latin": "Puffinus puffinus",
+    "lifespan": 50
+  }
+]
