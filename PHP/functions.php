@@ -36,12 +36,13 @@ function convert_array_to_output_format($input_array)
 // save the array to file named "my-output.json" 
 function save_php_array_to_output_file($output_array)
 {
-  $inp = file_get_contents('my_output.json');
+  $inp = file_get_contents('data/my-output.json');
   $output = convert_array_to_output_format($output_array);
-  $out = file_put_contents($output, $inp);
-  return $out;
+  return file_put_contents($output, $inp);
+
   print "Saving...\n";
 }
+
 
 
 ########################################################################

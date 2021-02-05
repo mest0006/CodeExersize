@@ -6,8 +6,15 @@
 }
 
 body {
-  background-color: light-grey;
+
   font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  background-color: rgba(128, 128, 128, 0.055);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
 }
 
 h1 {
@@ -50,7 +57,7 @@ p {
 }
 
 img {
-  padding: 10%;
+  padding: 20%;
 }
 
 .textcontainer p {
